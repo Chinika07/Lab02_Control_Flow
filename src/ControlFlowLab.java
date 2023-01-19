@@ -5,8 +5,8 @@ import static java.lang.Integer.parseInt;
 public class ControlFlowLab {
     public static void main(String[] args) {
 // Get user to input a number
-        System.out.println("Welcome to guess the Secret Number!");
-        System.out.println("Guess the secret number, which is between 0 and 10 and input your guesses below :).");
+        System.out.println("Welcome to Guess the Secret Number!");
+        System.out.println("Guess the secret number, which is between 0 and 10, and input your guesses below :).");
 // Collect user input - using the Scanner reader
         Scanner reader = new Scanner(System.in);
         String input = reader.nextLine();
@@ -27,7 +27,7 @@ public class ControlFlowLab {
         } else if (secretNumber == 6) {
             System.out.println("You're even closer this time... but still not close enough.");
         } else if (secretNumber == 8) {
-            System.out.println("Oh8 you're a little bit too high there, but you are close!");
+            System.out.println("Oh you're a little bit too high there, but you are close!");
         } else if (secretNumber == 9) {
             System.out.println("You're close... but not close enough sadly!");
         } else if (secretNumber >= 10) {

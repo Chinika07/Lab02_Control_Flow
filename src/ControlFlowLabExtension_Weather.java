@@ -7,7 +7,7 @@ public class ControlFlowLabExtension_Weather {
     public static void main(String[] args) {
 // Get user to input information about the weather and avg. temperature
         System.out.println("Welcome to the C8 Weather App!");
-        System.out.println("Do you need guidance on what clothing to wear outside? Well you are at the right place :).");
+        System.out.println("Do you need guidance on what to wear outside? Well you are at the right place :).");
         System.out.println("Please enter the details below so we can help.");
 
         // Collect user input using the Scanner reader
@@ -29,7 +29,7 @@ public class ControlFlowLabExtension_Weather {
         } else if (weather.equals("Raining") && temperature < 12) {
             System.out.println("You'll need a coat to keep you warm and dry.");
         } else if (weather.equals("Raining") && temperature >= 12) {
-            System.out.println("Grab something light... but don't forget a hood!");
+            System.out.println("Grab a light jacket... but don't forget a hood!");
 
         } else if (weather.equals("Sunny") && temperature < 15) {
             System.out.printf("The sun is out but don't be fooled... take a light jacket just in case.");
